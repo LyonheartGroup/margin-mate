@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MarginMate.ai — Stop underpricing client work</title>
   <meta name="description" content="Free pricing and profitability calculator for freelancers and agencies. Know your real margin before you send the proposal." />
+  <meta property="og:title" content="MarginMate.ai — Stop underpricing client work" />
+  <meta property="og:description" content="Free pricing and profitability calculator for freelancers and agencies." />
+  <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,6 +19,7 @@
       <a href="#top" class="brand">MarginMate<span>.ai</span></a>
       <nav>
         <a href="#calculator">Calculator</a>
+        <a href="#how-it-works">How it works</a>
         <a href="#pricing-pack">Pricing Pack</a>
         <a href="#faq">FAQ</a>
       </nav>
@@ -27,16 +31,16 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">FREE PRICING & PROFITABILITY CALCULATOR</p>
-          <h1>Stop underpricing client work.</h1>
-          <p class="hero-copy">Calculate your real profit, minimum viable quote, and recommended price in under 30 seconds.</p>
+          <h1>Know the margin before you chase the revenue.</h1>
+          <p class="hero-copy">MarginMate.ai helps freelancers, consultants, and agencies calculate real profit, break-even price, and recommended quote in under 30 seconds.</p>
           <div class="hero-cta">
             <a class="button button-primary" href="#calculator">Use the calculator</a>
             <a class="button button-secondary" href="#pricing-pack">Get the Pricing Pack — $19</a>
           </div>
           <ul class="hero-points">
-            <li>See your true margin after revisions, overhead, and software costs</li>
-            <li>Know your break-even quote instantly</li>
-            <li>Get a recommended price based on your target margin</li>
+            <li>Price projects with revisions, overhead, and software costs included</li>
+            <li>Spot bad deals before they eat your week</li>
+            <li>Use the paid pack to tighten scope and protect margins</li>
           </ul>
         </div>
         <div class="hero-card">
@@ -46,15 +50,15 @@
           </div>
           <div class="metric-preview">
             <span>Total real cost</span>
-            <strong>$1,364</strong>
+            <strong>$1,375</strong>
           </div>
           <div class="metric-preview highlight success">
             <span>Expected profit</span>
-            <strong>$1,136</strong>
+            <strong>$1,125</strong>
           </div>
           <div class="metric-preview">
             <span>Recommended quote</span>
-            <strong>$1,948.57</strong>
+            <strong>$1,964.29</strong>
           </div>
         </div>
       </div>
@@ -98,7 +102,10 @@
               <span>Target profit margin (%)</span>
               <input type="number" id="targetMargin" min="1" max="95" step="0.1" value="30" />
             </label>
-            <button type="button" class="button button-primary full-width" id="resetDefaults">Reset defaults</button>
+            <div class="input-actions">
+              <button type="button" class="button button-primary full-width" id="resetDefaults">Reset defaults</button>
+              <button type="button" class="button button-ghost full-width" id="copySummary">Copy summary</button>
+            </div>
           </form>
 
           <div class="results-panel">
@@ -149,8 +156,36 @@
                 <li>Overhead cost = (delivery + revisions + software) × overhead</li>
                 <li>Recommended quote = total real cost ÷ (1 - target margin)</li>
               </ul>
+              <p class="tiny inline-note" id="copyStatus">Tip: copy a summary and paste it into your proposal draft.</p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="how-it-works">
+      <div class="container">
+        <div class="section-heading narrow">
+          <p class="eyebrow">HOW IT WORKS</p>
+          <h2>Simple math. Better decisions.</h2>
+          <p>MarginMate turns back-of-the-napkin pricing into an actual decision tool.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="card step-card">
+            <div class="step-number">1</div>
+            <h3>Enter the real inputs</h3>
+            <p>Add hours, internal cost, software or contractor costs, revision buffer, overhead, and your target margin.</p>
+          </article>
+          <article class="card step-card">
+            <div class="step-number">2</div>
+            <h3>See the true economics</h3>
+            <p>MarginMate calculates the actual cost of delivery, expected profit, break-even point, and a recommended quote.</p>
+          </article>
+          <article class="card step-card">
+            <div class="step-number">3</div>
+            <h3>Decide like an adult</h3>
+            <p>Take the deal, raise the price, tighten the scope, or walk away before the project turns into charity work.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -168,7 +203,7 @@
           </article>
           <article class="card">
             <h3>Overhead is real</h3>
-            <p>Software, admin time, contractors, and business overhead don’t disappear because a client pays fast.</p>
+            <p>Software, admin time, contractors, and business overhead do not vanish because the client pays fast.</p>
           </article>
           <article class="card">
             <h3>Gut-feel pricing is expensive</h3>
@@ -183,9 +218,9 @@
         <div>
           <p class="eyebrow">PAID UPSELL</p>
           <h2>Get the MarginMate Pricing Pack — $19</h2>
-          <p>The calculator gets attention. The pack helps operators actually price work properly.</p>
+          <p>The free calculator gets you the answer. The paid pack helps you operationalize it.</p>
           <ul class="checklist">
-            <li>Advanced pricing spreadsheet</li>
+            <li>Advanced pricing sheet with example scenarios</li>
             <li>Retainer pricing planner</li>
             <li>Proposal pricing worksheet</li>
             <li>Scope creep checklist</li>
@@ -196,7 +231,10 @@
           <p class="price">$19 <span>one-time</span></p>
           <p>Practical templates. No subscription nonsense.</p>
           <a class="button button-primary full-width" href="pack/README.txt" target="_blank" rel="noopener">Preview the pack</a>
-          <p class="tiny">Replace this preview link with Gumroad, Lemon Squeezy, or Payhip at launch.</p>
+          <div class="secondary-actions">
+            <a class="button button-ghost full-width" href="pack/advanced-pricing-sheet.csv" target="_blank" rel="noopener">Open sample pricing sheet</a>
+          </div>
+          <p class="tiny">Replace the preview link with Gumroad, Lemon Squeezy, or Payhip at launch.</p>
         </div>
       </div>
     </section>
@@ -210,11 +248,11 @@
         <div class="faq-list">
           <article class="card faq-item">
             <h3>Who is this for?</h3>
-            <p>Freelancers, consultants, and boutique agencies who sell project or retainer work.</p>
+            <p>Freelancers, consultants, and boutique agencies selling project or retainer work.</p>
           </article>
           <article class="card faq-item">
             <h3>Is the calculator free?</h3>
-            <p>Yes. The calculator is free. The paid Pricing Pack adds spreadsheets and templates.</p>
+            <p>Yes. The calculator is free. The paid Pricing Pack adds spreadsheets and operating templates.</p>
           </article>
           <article class="card faq-item">
             <h3>Can I use this for retainers?</h3>

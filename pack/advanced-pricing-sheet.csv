@@ -1,0 +1,5 @@
+Scenario,Quoted Price,Estimated Hours,Internal Cost per Hour,Software Costs,Revision Buffer %,Overhead %,Target Margin %,Delivery Cost,Revision Cost,Overhead Cost,Total Real Cost,Expected Profit,Profit Margin %,Minimum Viable Quote,Recommended Quote
+Default Project,2500,20,50,100,15,10,30,1000,150,125,1375,1125,45,1375,1964.29
+Website Build,4000,35,60,250,20,12,35,2100,420,332.4,3102.4,897.6,22.44,3102.4,4772.92
+Monthly Retainer,3000,18,55,150,10,10,30,990,99,123.9,1362.9,1637.1,54.57,1362.9,1947
+Tight Deal,1500,25,50,100,20,12,30,1250,250,192,1792,-292,-19.47,1792,2560

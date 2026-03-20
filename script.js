@@ -22,6 +22,7 @@ const output = {
   dealScoreLabel: document.getElementById('dealScoreLabel'),
   dealScoreMessage: document.getElementById('dealScoreMessage'),
   scoreCard: document.getElementById('scoreCard'),
+  copyStatus: document.getElementById('copyStatus'),
 };
 
 const money = new Intl.NumberFormat('en-US', {
@@ -35,6 +36,8 @@ const pct = new Intl.NumberFormat('en-US', {
   minimumFractionDigits: 1,
   maximumFractionDigits: 1,
 });
+
+let latestResults = null;
 
 function num(id) {
   const value = parseFloat(elements[id].value);
@@ -89,6 +92,44 @@ function calculate() {
   output.dealScoreLabel.textContent = label;
   output.dealScoreMessage.textContent = message;
   output.scoreCard.className = className;
+
+  latestResults = {
+    quotedPrice,
+    estimatedHours,
+    totalRealCost,
+    expectedProfit,
+    profitMargin,
+    effectiveHourlyRate,
+    minimumQuote,
+    recommendedQuote,
+    label,
+    message,
+  };
+}
+
+async function copySummary() {
+  if (!latestResults) return;
+
+  const summary = [
+    'MarginMate.ai summary',
+    `Quoted price: ${money.format(latestResults.quotedPrice)}`,
+    `Estimated hours: ${latestResults.estimatedHours}`,
+    `Total real cost: ${money.format(latestResults.totalRealCost)}`,
+    `Expected profit: ${money.format(latestResults.expectedProfit)}`,
+    `Profit margin: ${pct.format(latestResults.profitMargin)}`,
+    `Net profit per hour: ${money.format(latestResults.effectiveHourlyRate)}`,
+    `Minimum viable quote: ${money.format(latestResults.minimumQuote)}`,
+    `Recommended quote: ${money.format(latestResults.recommendedQuote)}`,
+    `Deal score: ${latestResults.label}`,
+    `Recommendation: ${latestResults.message}`,
+  ].join('\n');
+
+  try {
+    await navigator.clipboard.writeText(summary);
+    output.copyStatus.textContent = 'Summary copied. Paste it into your proposal, CRM, or notes.';
+  } catch {
+    output.copyStatus.textContent = 'Clipboard access failed. Copy manually from the results above.';
+  }
 }
 
 ids.forEach((id) => {
@@ -99,7 +140,10 @@ document.getElementById('resetDefaults').addEventListener('click', () => {
   ids.forEach((id) => {
     elements[id].value = defaults[id];
   });
+  output.copyStatus.textContent = 'Tip: copy a summary and paste it into your proposal draft.';
   calculate();
 });
+
+document.getElementById('copySummary').addEventListener('click', copySummary);
 
 calculate();

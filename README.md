@@ -10,6 +10,7 @@ MarginMate.ai is a static pricing and profitability calculator for freelancers, 
 - Calculates a minimum viable quote
 - Recommends a quote based on target margin
 - Flags the deal as healthy, tight, or bad
+- Copies a summary for proposals or CRM notes
 
 ## Files
 
@@ -18,10 +19,26 @@ MarginMate.ai is a static pricing and profitability calculator for freelancers, 
 - `script.js` — calculator logic
 - `pack/` — starter files for the paid Pricing Pack
 
+## Pricing Pack starter contents
+
+- `advanced-pricing-sheet.csv`
+- `retainer-pricing-planner.md`
+- `proposal-pricing-worksheet.md`
+- `scope-creep-checklist.md`
+- `profitability-review-template.md`
+
 ## Deploy
 
 This is a plain static site. Deploy it to GitHub Pages, Cloudflare Pages, Netlify, or any static host.
 
+### GitHub Pages quick start
+
+1. Push the repo to GitHub.
+2. In GitHub, open **Settings → Pages**.
+3. Set source to **Deploy from a branch**.
+4. Choose branch **main** and folder **/(root)**.
+5. Save.
+
 ## Payment link
 
-The current Pricing Pack button points to a local preview file. Replace it with your Gumroad, Payhip, or Lemon Squeezy product URL before launch.
+The current Pricing Pack button points to local preview files. Replace it with your Gumroad, Payhip, or Lemon Squeezy product URL before launch.
