@@ -41,4 +41,4 @@ This is a plain static site. Deploy it to GitHub Pages, Cloudflare Pages, Netlif
 
 ## Payment link
 
-The current Pricing Pack button points to local preview files. Replace it with your Gumroad, Payhip, or Lemon Squeezy product URL before launch.
+The Pricing Pack button now points to the live Gumroad checkout URL. You can replace it later if you migrate to Payhip, Lemon Squeezy, or Stripe.
