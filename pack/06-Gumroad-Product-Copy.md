@@ -16,6 +16,10 @@ Inside the pack:
 - Advanced pricing sheet with sample scenarios
 - Proposal pricing worksheet
 - Retainer pricing planner
+- Service suite planner spreadsheet
+- Client pricing scenario worksheet
+- Discount protection worksheet
+- Capacity and profit planner
 - Scope creep checklist
 - Profitability review template
 - Quick-start guide

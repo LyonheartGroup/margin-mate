@@ -13,10 +13,22 @@ You bought this to do one thing better: price work like a professional instead o
 3. **Proposal Pricing Worksheet**
    - Use this before sending a quote to pressure-test whether the deal makes sense.
 
-4. **Scope Creep Checklist**
+4. **Service Suite Planner**
+   - Use this to separate offers clearly so clients do not confuse one service with your full suite.
+
+5. **Client Pricing Scenario Worksheet**
+   - Use this to test multiple offer/pricing combinations before presenting them.
+
+6. **Discount Protection Worksheet**
+   - Use this when a client asks for a discount so you know what must be removed or changed.
+
+7. **Capacity and Profit Planner**
+   - Use this to understand how many clients you can support without crushing margin.
+
+8. **Scope Creep Checklist**
    - Use this before kickoff and again before finalizing the proposal.
 
-5. **Profitability Review Template**
+9. **Profitability Review Template**
    - Use this after the job to learn whether your estimate was honest or fantasy.
 
 ## Best workflow

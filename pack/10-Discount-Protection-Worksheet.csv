@@ -1,0 +1,5 @@
+Scenario,Base Price,Requested Discount %,Discounted Price,Estimated Hours,Internal Cost per Hour,Software Costs,Revision Buffer %,Overhead %,Target Margin %,Total Real Cost,Expected Profit,Profit Margin %,What Must Be Removed
+Default,,,,,,,,,,,,,
+Case 2,,,,,,,,,,,,,
+Case 3,,,,,,,,,,,,,
+Case 4,,,,,,,,,,,,,
