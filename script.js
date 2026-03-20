@@ -107,10 +107,8 @@ function calculate() {
   };
 }
 
-async function copySummary() {
-  if (!latestResults) return;
-
-  const summary = [
+function buildSummary() {
+  return [
     'MarginMate.ai summary',
     `Quoted price: ${money.format(latestResults.quotedPrice)}`,
     `Estimated hours: ${latestResults.estimatedHours}`,
@@ -123,12 +121,50 @@ async function copySummary() {
     `Deal score: ${latestResults.label}`,
     `Recommendation: ${latestResults.message}`,
   ].join('\n');
+}
+
+function legacyCopy(text) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'absolute';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  textarea.setSelectionRange(0, textarea.value.length);
+
+  let copied = false;
+  try {
+    copied = document.execCommand('copy');
+  } catch {
+    copied = false;
+  }
+
+  document.body.removeChild(textarea);
+  return copied;
+}
+
+async function copySummary() {
+  if (!latestResults) return;
+
+  const summary = buildSummary();
 
   try {
-    await navigator.clipboard.writeText(summary);
-    output.copyStatus.textContent = 'Summary copied. Paste it into your proposal, CRM, or notes.';
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(summary);
+      output.copyStatus.textContent = 'Summary copied. Paste it into your proposal, CRM, or notes.';
+      return;
+    }
+
+    const copied = legacyCopy(summary);
+    output.copyStatus.textContent = copied
+      ? 'Summary copied. Paste it into your proposal, CRM, or notes.'
+      : 'Copy failed in this browser context. Try the hosted site over HTTPS.';
   } catch {
-    output.copyStatus.textContent = 'Clipboard access failed. Copy manually from the results above.';
+    const copied = legacyCopy(summary);
+    output.copyStatus.textContent = copied
+      ? 'Summary copied. Paste it into your proposal, CRM, or notes.'
+      : 'Copy failed in this browser context. Try the hosted site over HTTPS.';
   }
 }
 
