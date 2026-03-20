@@ -163,6 +163,48 @@ nav a:hover { color: var(--accent); }
 }
 .input-card label { display: grid; gap: 8px; }
 .input-card span { font-weight: 600; font-size: 0.96rem; }
+.label-with-help {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.help-icon {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: rgba(79,70,229,0.12);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 800;
+  cursor: help;
+}
+.help-icon::after {
+  content: attr(data-help);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  transform: translateX(-50%);
+  width: 260px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #111827;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.45;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+  z-index: 20;
+}
+.help-icon:hover::after,
+.help-icon:focus::after {
+  opacity: 1;
+}
 input {
   width: 100%;
   padding: 14px 14px;
