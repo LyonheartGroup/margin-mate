@@ -267,6 +267,10 @@ input:focus {
   gap: 18px;
   flex-wrap: wrap;
 }
+.single-line-footer {
+  justify-content: center;
+  text-align: center;
+}
 
 @media (max-width: 980px) {
   .hero-grid, .calculator-grid, .upsell-grid, .benefits-grid, .faq-list, .steps-grid, .trust-grid {
