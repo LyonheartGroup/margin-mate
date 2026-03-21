@@ -253,6 +253,10 @@ input:focus {
   gap: 8px;
   flex-wrap: nowrap;
   white-space: nowrap;
+  margin-bottom: 0;
+}
+.result-label-row {
+  display: block;
   margin-bottom: 8px;
 }
 .result-card .label-with-help .help-icon {
@@ -262,8 +266,21 @@ input:focus {
   transform: none;
   margin: 0;
 }
-.result-card .label-with-help + strong {
+.result-card strong {
   display: block;
+}
+.result-help-icon::after {
+  width: 300px;
+}
+.result-card.warning .result-help-icon::after {
+  left: 0;
+  right: auto;
+  transform: none;
+}
+.result-card.accent .result-help-icon::after {
+  left: 0;
+  right: auto;
+  transform: none;
 }
 .span-2 { grid-column: span 2; }
 .formula-card { padding: 24px; }
