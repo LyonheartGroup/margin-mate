@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Styles>
+<Style ss:ID="Default" ss:Name="Normal"><Font ss:FontName="Calibri" ss:Size="11"/><Alignment ss:Vertical="Center"/></Style>
+<Style ss:ID="title"><Font ss:FontName="Calibri" ss:Size="16" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#4F46E5" ss:Pattern="Solid"/><Alignment ss:Horizontal="Center" ss:Vertical="Center"/></Style>
+<Style ss:ID="header"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#111827" ss:Pattern="Solid"/><Alignment ss:WrapText="1" ss:Vertical="Center"/></Style>
+<Style ss:ID="cell"><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/><Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/><Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/><Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/></Borders><Alignment ss:Vertical="Center" ss:WrapText="1"/></Style>
+</Styles>
+<Worksheet ss:Name="Discounts">
+<Table>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Row ss:Height="24"><Cell ss:MergeAcross="13" ss:StyleID="title"><Data ss:Type="String">MarginMate Discount Protection Worksheet</Data></Cell></Row>
+<Row/>
+<Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Scenario</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Base Price</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Requested Discount</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Discounted Price</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Estimated Hours</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal Cost/Hour</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Software Costs</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Revision Buffer</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Overhead</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Target Margin</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Total Real Cost</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Expected Profit</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Profit Margin</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">What Must Be Removed</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="cell"><Data ss:Type="String">Default</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$3,000</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">10%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">20</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$60</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$100</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">15%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">10%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">30%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="cell"><Data ss:Type="String">Case 2</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$4,500</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">15%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">30</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$75</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$150</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">15%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">12%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">35%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table></Worksheet></Workbook>
+
+
