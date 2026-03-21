@@ -7,28 +7,28 @@ You bought this to do one thing better: price work like a professional instead o
 1. **Advanced Pricing Sheet**
    - Use this to model project pricing and compare scenarios.
 
-2. **Retainer Pricing Planner**
+2. **Retainer Pricing Workbook**
    - Use this to price recurring work with cleaner monthly economics.
 
-3. **Proposal Pricing Worksheet**
+3. **Proposal Pricing Workbook**
    - Use this before sending a quote to pressure-test whether the deal makes sense.
 
 4. **Service Suite Planner**
    - Use this to separate offers clearly so clients do not confuse one service with your full suite.
 
-5. **Client Pricing Scenario Worksheet**
+5. **Client Pricing Scenario Workbook**
    - Use this to test multiple offer/pricing combinations before presenting them.
 
-6. **Discount Protection Worksheet**
+6. **Discount Protection Workbook**
    - Use this when a client asks for a discount so you know what must be removed or changed.
 
 7. **Capacity and Profit Planner**
    - Use this to understand how many clients you can support without crushing margin.
 
-8. **Scope Creep Checklist**
+8. **Scope Creep Checklist (PDF)**
    - Use this before kickoff and again before finalizing the proposal.
 
-9. **Profitability Review Template**
+9. **Profitability Review Workbook**
    - Use this after the job to learn whether your estimate was honest or fantasy.
 
 ## Best workflow

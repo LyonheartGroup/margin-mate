@@ -14,15 +14,15 @@ MarginMate Pricing Pack helps you price projects and retainers with actual margi
 
 Inside the pack:
 - Advanced pricing sheet with sample scenarios
-- Proposal pricing worksheet
-- Retainer pricing planner
+- Proposal pricing workbook
+- Retainer pricing workbook
 - Service suite planner spreadsheet
-- Client pricing scenario worksheet
-- Discount protection worksheet
+- Client pricing scenario workbook
+- Discount protection workbook
 - Capacity and profit planner
-- Scope creep checklist
-- Profitability review template
-- Quick-start guide
+- Profitability review workbook
+- Scope creep checklist PDF
+- Quick-start guide PDF
 
 Use it to:
 - calculate minimum viable quotes
