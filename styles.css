@@ -169,17 +169,7 @@ nav a:hover { color: var(--accent); }
   align-items: center;
   gap: 8px;
 }
-.result-card .label-with-help {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  width: auto;
-  margin-bottom: 0;
-}
-.result-card .label-with-help .help-icon {
-  transform: none;
-}
-.help-icon {
+ .help-icon {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -257,6 +247,20 @@ input:focus {
 .result-card.success { background: #ecfdf5; }
 .result-card.warning { background: #fffbeb; }
 .result-card.accent { background: #eef2ff; }
+.result-card .label-with-help {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.result-card .label-with-help .help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: none;
+  margin: 0;
+}
 .span-2 { grid-column: span 2; }
 .formula-card { padding: 24px; }
 .formula-card h3 { margin-top: 0; }
