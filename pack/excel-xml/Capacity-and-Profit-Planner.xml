@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Styles>
+<Style ss:ID="Default" ss:Name="Normal"><Font ss:FontName="Calibri" ss:Size="11"/><Alignment ss:Vertical="Center"/></Style>
+<Style ss:ID="title"><Font ss:FontName="Calibri" ss:Size="16" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#4F46E5" ss:Pattern="Solid"/><Alignment ss:Horizontal="Center" ss:Vertical="Center"/></Style>
+<Style ss:ID="header"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#111827" ss:Pattern="Solid"/><Alignment ss:WrapText="1" ss:Vertical="Center"/></Style>
+<Style ss:ID="cell"><Borders><Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/><Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/><Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/><Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDE3EF"/></Borders><Alignment ss:Vertical="Center" ss:WrapText="1"/></Style>
+</Styles>
+<Worksheet ss:Name="Capacity">
+<Table>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Column ss:AutoFitWidth="1" ss:Width="120"/>
+<Row ss:Height="24"><Cell ss:MergeAcross="13" ss:StyleID="title"><Data ss:Type="String">MarginMate Capacity and Profit Planner</Data></Cell></Row>
+<Row/>
+<Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Month</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Client Count</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Average Revenue/Client</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Estimated Hours/Client</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Internal Cost/Hour</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Software/Ops Costs</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Revision Buffer</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Overhead</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Target Margin</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Total Revenue</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Total Real Cost</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Expected Profit</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Average Profit/Client</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Capacity Notes</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="cell"><Data ss:Type="String">Month 1</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">3</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$2,500</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">18</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$55</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$150</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">10%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">10%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">30%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="cell"><Data ss:Type="String">Month 2</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">4</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$2,600</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">18</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$55</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">$175</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">10%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">10%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String">30%</Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="cell"><Data ss:Type="String"></Data></Cell>
+</Row>
+</Table></Worksheet></Workbook>
+
