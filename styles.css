@@ -194,6 +194,7 @@ nav a:hover { color: var(--accent); }
   bottom: calc(100% + 10px);
   transform: translateX(-50%);
   width: 260px;
+  max-width: 260px;
   padding: 10px 12px;
   border-radius: 12px;
   background: #111827;
@@ -201,6 +202,10 @@ nav a:hover { color: var(--accent); }
   font-size: 0.82rem;
   font-weight: 500;
   line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  text-align: left;
   box-shadow: var(--shadow);
   opacity: 0;
   pointer-events: none;
@@ -271,6 +276,9 @@ input:focus {
 }
 .result-help-icon::after {
   width: 300px;
+  max-width: 300px;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 .result-card.warning .result-help-icon::after {
   left: 0;
