@@ -169,6 +169,16 @@ nav a:hover { color: var(--accent); }
   align-items: center;
   gap: 8px;
 }
+.result-card .label-with-help {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  margin-bottom: 0;
+}
+.result-card .label-with-help .help-icon {
+  transform: none;
+}
 .help-icon {
   position: relative;
   display: inline-flex;
