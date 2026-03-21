@@ -33,5 +33,8 @@ Use it to:
 
 Built to pair with the free calculator at MarginMate.ai.
 
+## Buyer instruction note
+The workbook files are delivered as CSV templates so they are easy to import into Google Sheets. Open Google Sheets, go to File → Import, upload the CSV you want to use, and start editing from there.
+
 ## Tags
 freelance, agency, pricing, consulting, proposals, profitability, margin, business tools

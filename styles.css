@@ -101,7 +101,7 @@ nav a:hover { color: var(--accent); }
   margin: 22px 0 28px;
 }
 .hero-cta, .input-actions, .secondary-actions { display: flex; flex-wrap: wrap; gap: 14px; }
-.hero-cta { margin-bottom: 34px; }
+.hero-cta { margin-bottom: 34px; row-gap: 18px; }
 .button {
   display: inline-flex;
   justify-content: center;
