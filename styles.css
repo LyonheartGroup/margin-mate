@@ -253,6 +253,7 @@ input:focus {
   gap: 8px;
   flex-wrap: nowrap;
   white-space: nowrap;
+  margin-bottom: 8px;
 }
 .result-card .label-with-help .help-icon {
   display: inline-flex;
@@ -260,6 +261,9 @@ input:focus {
   justify-content: center;
   transform: none;
   margin: 0;
+}
+.result-card .label-with-help + strong {
+  display: block;
 }
 .span-2 { grid-column: span 2; }
 .formula-card { padding: 24px; }
